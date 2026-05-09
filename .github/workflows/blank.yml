@@ -17,10 +17,10 @@ jobs:
             dotnet-version: '8.0.x' 
 
         - name: Restore dependencies
-          run: dotnet restore CalculatorApp.sln 
+          run: dotnet restore CalculatorApp.slnx 
 
         - name: Build
-          run: dotnet build CalculatorApp.sln --no-restore 
+          run: dotnet build CalculatorApp.slnx --no-restore 
 
         - name: Test
-          run: dotnet test CalculatorApp.sln 
+          run: dotnet test CalculatorApp.slnx 
