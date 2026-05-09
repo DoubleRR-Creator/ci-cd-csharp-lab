@@ -7,7 +7,7 @@ namespace CalculatorApp
         static void Main(string[] args)
         {
             Calculator calc = new Calculator();
-            Console.WriteLine("Результат 2+3 = " + calc.Add(2, 3));
+            Console.WriteLine("Калькулейт: " + calc.Add(2, 3));
         }
     }
 }
